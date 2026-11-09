@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-card">
+                <p class="main-title">Student Registration Form</p>
+                <form id="registrationForm">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="example@gmail.com">
+                            <div class="input-group">
+                                <label for="course">Choose Course </label>
+                                <select id="course">
+                                    <option value="">Select your course</option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="AI">AI</option>
+                                    <option value="DS">DS</option>
+                                    <option value="CSO">CSO</option>
+                                    <option value="IOT">IOT</option>
+                                    </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" id="password" placeholder="Minimum 6 characters">
+                                        <button type="submit">SUBMIT </button>
+                                        <p id="message"></p>
+                                        <script src="script.js"></script>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</head></html>
